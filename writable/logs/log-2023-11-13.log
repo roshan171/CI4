@@ -1,0 +1,6 @@
+CRITICAL - 2023-11-13 12:22:01 --> Call to a member function insert() on null
+in APPPATH\Controllers\registerController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\registerController->submitregister()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\registerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

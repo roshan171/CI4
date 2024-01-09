@@ -1,0 +1,177 @@
+CRITICAL - 2023-11-24 06:36:54 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 06:59:21 --> Class 'App\Controllers\CI_Controller' not found
+in APPPATH\Controllers\Export_csv.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Controllers\\Export_csv.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Export_csv')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Export_csv')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Export_csv')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Export_csv', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:00:20 --> Class 'App\Controllers\CI_Controller' not found
+in APPPATH\Controllers\Export_csv.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Controllers\\Export_csv.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Export_csv')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Export_csv')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Export_csv')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Export_csv', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:00:27 --> Class 'App\Controllers\CI_Controller' not found
+in APPPATH\Controllers\Export_csv.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Controllers\\Export_csv.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Export_csv')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Export_csv')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Export_csv')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Export_csv', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:01:24 --> Cannot call constructor
+in APPPATH\Controllers\Export_csv.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:01:47 --> Call to a member function database() on null
+in APPPATH\Controllers\Export_csv.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:02:26 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:02:42 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:02:43 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:02:48 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:03:00 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:03:01 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:03:06 --> Call to a member function getUserDetails() on null
+in APPPATH\Controllers\Export_csv.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Export_csv->export_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export_csv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 07:03:32 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:10:39 --> Return value of App\Controllers\Testmail::index() must be of the type string, none returned
+in APPPATH\Controllers\Testmail.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:11:00 --> Use of undefined constant hello - assumed 'hello' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Testmail.php on line 11.
+ 1 APPPATH\Controllers\Testmail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant hello - assumed \'hello\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\CI4\\app\\Controllers\\Testmail.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:12:09 --> Return value of App\Controllers\Testmail::index() must be of the type string, none returned
+in APPPATH\Controllers\Testmail.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:32:50 --> Call to a member function setTo() on null
+in APPPATH\Controllers\Testmail.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:34:57 --> Call to a member function setMessage() on string
+in APPPATH\Controllers\Testmail.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:35:01 --> Call to a member function setMessage() on string
+in APPPATH\Controllers\Testmail.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 09:35:07 --> Call to a member function setMessage() on string
+in APPPATH\Controllers\Testmail.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Testmail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testmail))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-24 09:35:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-24 09:35:32 --> 220 smtp.gmail.com ESMTP j6-20020a17090276c600b001c9b384731esm2739996plt.270 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.210.145.177]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j6-20020a17090276c600b001c9b384731esm2739996plt.270 - gsmtp
+
+ERROR - 2023-11-24 09:41:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-11-24 09:41:49 --> 220 smtp.gmail.com ESMTP g8-20020a056a00078800b00694fee1011asm2507874pfu.208 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.210.145.177]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g8-20020a056a00078800b00694fee1011asm2507874pfu.208 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g8-20020a056a00078800b00694fee1011asm2507874pfu.208 - gsmtp
+
+quit: 221 2.0.0 closing connection g8-20020a056a00078800b00694fee1011asm2507874pfu.208 - gsmtp
+

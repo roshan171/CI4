@@ -1,0 +1,11 @@
+INFO - 2023-12-11 09:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-11 09:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 09:15:54 --> Invalid file: "Admin/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/register.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Admin/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('Admin/register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

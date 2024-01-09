@@ -1,0 +1,125 @@
+CRITICAL - 2023-11-23 09:47:31 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 09:51:19 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 09:51:52 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 09:52:00 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 11:35:53 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 11:37:43 --> Call to a member function model() on null
+in APPPATH\Controllers\Export_csv.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Export_csv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 15:21:16 --> Call to undefined function set_value()
+in APPPATH\Views\emailform.php on line 22.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('emailform', [], true)
+ 4 APPPATH\Controllers\EmailController.php(9): view('emailform')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 15:21:43 --> Call to undefined function set_value()
+in APPPATH\Views\emailform.php on line 22.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('emailform', [], true)
+ 4 APPPATH\Controllers\EmailController.php(9): view('emailform')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:12:13 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:12:38 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:12:44 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:13:17 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:13:39 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:13:42 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:28:12 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\EmailController.php(58): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 16:30:47 --> Call to a member function library() on null
+in APPPATH\Controllers\EmailController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\EmailController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

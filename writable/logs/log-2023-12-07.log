@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-07 08:11:52 --> Authentication failed
+in FCPATH\vendor\razorpay\razorpay\src\Request.php on line 143.
+ 1 FCPATH\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError([...], 401, Object(WpOrg\Requests\Response))
+ 2 FCPATH\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+ 3 FCPATH\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.razorpay.com/v1/orders/', '{"amount":2000,"currency":"INR","payment_capture":1}', 'v1')
+ 4 FCPATH\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"amount":2000,"currency":"INR","payment_capture":1}')
+ 5 FCPATH\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"amount":2000,"currency":"INR","payment_capture":1}')
+ 6 APPPATH\Controllers\PaymentController.php(29): Razorpay\Api\Order->create('{"amount":2000,"currency":"INR","payment_capture":1}')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PaymentController->processPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

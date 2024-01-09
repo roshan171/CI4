@@ -1,0 +1,218 @@
+INFO - 2023-11-29 07:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 07:51:36 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\PostController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:12:54 --> Call to undefined function base_ur()
+in APPPATH\Views\Posts\index.php on line 124.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('posts/index', [], true)
+ 4 APPPATH\Controllers\PostController.php(9): view('posts/index')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:13:20 --> Call to undefined function base_ur()
+in APPPATH\Views\Posts\index.php on line 124.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('posts/index', [], true)
+ 4 APPPATH\Controllers\PostController.php(9): view('posts/index')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:13:49 --> Call to undefined function base_ur()
+in APPPATH\Views\Posts\index.php on line 124.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('posts/index', [], true)
+ 4 APPPATH\Controllers\PostController.php(9): view('posts/index')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:31:33 --> Call to undefined function base_ur()
+in APPPATH\Views\Posts\index.php on line 124.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('posts/index', [], true)
+ 4 APPPATH\Controllers\PostController.php(9): view('posts/index')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:50:21 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:50:23 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:50:26 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:51:26 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:52:26 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:52:37 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:53:26 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:53:49 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:54:52 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:55:03 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 10:55:13 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:02:33 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:02:34 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:02:39 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:05:18 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:07:29 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:07:44 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:08:16 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:09:21 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:09:33 --> Class 'App\Controllers\AppModelsPostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:10:57 --> Class 'App\Controllers\PostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:11:02 --> Class 'App\Controllers\PostModel' not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:12:36 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:14:34 --> unlink(uploads/avatar/cakebg.jpg): No such file or directory
+in APPPATH\Controllers\PostController.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/avatar/cakebg.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Controllers\\PostController.php', 107, [...])
+ 2 APPPATH\Controllers\PostController.php(107): unlink('uploads/avatar/cakebg.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:14:45 --> unlink(uploads/avatar/cakebg.jpg): No such file or directory
+in APPPATH\Controllers\PostController.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/avatar/cakebg.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Controllers\\PostController.php', 107, [...])
+ 2 APPPATH\Controllers\PostController.php(107): unlink('uploads/avatar/cakebg.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:15:18 --> Class 'App\Controllers\ConfigServices' not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 11:16:56 --> unlink(uploads/avatar/cakebg.jpg): No such file or directory
+in APPPATH\Controllers\PostController.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/avatar/cakebg.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CI4\\app\\Controllers\\PostController.php', 107, [...])
+ 2 APPPATH\Controllers\PostController.php(107): unlink('uploads/avatar/cakebg.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->update()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
